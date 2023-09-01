@@ -7,7 +7,7 @@
     <style>
       body {
         font-family: Arial, sans-serif;
-        background-color: #c48424;
+        background-color: #3a494e;
         text-align: center;
         margin: 0;
         padding: 0;
@@ -24,10 +24,10 @@
 
       .container {
         max-width: 400px;
-        margin: 50px auto;
-        background-color: white;
-        padding: 20px;
-        border-radius: 10px;
+        margin: 300px auto;
+        background-color: rgb(54, 184, 235);
+        padding: 50px;
+        border-radius: 100px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       }
     </style>
@@ -46,19 +46,22 @@
         // Greet the User
         alert("Hello!");
 
+        // Ask the user for their name
+        var yourName = prompt("What is your name?");
+
         // Ask the user how are they feeling
-        var yourName = prompt("how are you?");
+        var yourName = prompt("How are you?");
 
-        // Ask user what is their favorite movie is
-        var food = prompt("What is your favorite movie?");
-        alert("I like " + title + ", too");
+        // Ask user what their favorite movie is
+        var movie = prompt("What is your favorite movie?");
+        alert("It is indeed a great movie");
 
-        // Ask user if they would like to movie together
-        var shareFood = confirm("Let's go see the movie?");
+        // Ask user if they would like to watch a movie with me?
+        var Wathhmovie = confirm("Would like to watch a movie with me?");
 
         // If the user clicks "OK"
-        if (sure === true) {
-          alert("I'll wait for you at the Cinema 1!");
+        if (letsgo === true) {
+          alert("Thank you!");
         }
 
         // If the user clicks "cancel"
